@@ -1,5 +1,5 @@
 chrome.action.onClicked.addListener(function(tab) {
-  chrome.scripting.executeScript(tab.id, {
+  chrome.scripting.executeScript({
     target: {
       tabId: tab.id
     },
